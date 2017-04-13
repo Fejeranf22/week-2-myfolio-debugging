@@ -14,7 +14,7 @@ nav {
 	top:0;
 	left:0;
 	right:0;
-	z-index: -100;
+	z-index: 100;
 }
 /*nav logo*/
 nav > a {
@@ -32,7 +32,7 @@ nav span {
 	font-family: 'Open Sans', sans-serif;
 	color:  #cfc91d;
 	text-align: left;
-	
+
 }
 /*nav links*/
 nav ul {
@@ -41,7 +41,7 @@ nav ul {
 	top:5px;
 }
 nav li {
-	display: inline-bloc;
+	display: inline-block;
 	padding:0 15px;
 }
 nav li > a {
@@ -57,7 +57,7 @@ nav li > a:focus {
 /*OPENING HEADER*/
 header {
 	background-attachment: fixed;
-	background-image: url(./img/headerbg.png);
+	background-image: url(../img/headerbg.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: 100% 50%;
@@ -83,7 +83,7 @@ header img {
 }
 header a {
 	padding: 10px 35px;
-	color: #0B1016; 
+	color: #0B1016;
 	background-color: #CDC71D;
 	text-decoration: none;
 	font-weight: bold;
@@ -92,7 +92,7 @@ header a {
 	        transition: all 0.3s ease-in-out;
 }
 header a:hover {
-	background-color: #fff; 
+	background-color: #fff;
 	color: #0B1016;
 	cursor: pointer;
 }
@@ -108,7 +108,7 @@ header a:hover {
 	margin-bottom: 0;
 }
 #about > img {
-	margin: 15px 0;	
+	margin: 15px 0;
 }
 #about > p {
 	color:  #7e8287;
@@ -125,7 +125,7 @@ header a:hover {
     margin: 0 auto;
     width: 80%;
 }
-.aboutBox {
+.aboutbox {
 	float: left;
     width: 16%;
     padding: 0 4%;
@@ -141,7 +141,7 @@ header a:hover {
 
 /*SERVICE SECTION*/
 #service {
-	background-image: url(..img/service.png);
+	background-image: url(../img/service.png);
 	background-size: cover;
 	padding-left: 10%;
 	display: inline-block;
@@ -156,7 +156,7 @@ header a:hover {
 	margin-bottom: 0;
 }
 #service img {
-	margin: 15px 0;	
+	margin: 15px 0;
 }
 #service p {
     color:  #7e8287;
@@ -192,7 +192,7 @@ header a:hover {
 	margin-bottom: 0;
 }
 #contact img {
-	margin: 15px 0;	
+	margin: 15px 0;
 }
 #contact p {
     color:  #7e8287;
@@ -240,7 +240,7 @@ header a:hover {
 	clear: both;
 	border:none;
 	padding: 10px 35px;
-	color: #0B1016; 
+	color: #0B1016;
 	background-color: #CDC71D;
 	text-decoration: none;
 	font-weight: bold;
@@ -249,7 +249,7 @@ header a:hover {
 	        transition: all 0.3s ease-in-out;
 }
 .contactForm button:hover {
-	background-color: #fff; 
+	background-color: #fff;
 	color: #0B1016;
 	cursor: pointer;
 }
